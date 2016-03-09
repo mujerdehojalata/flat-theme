@@ -7,15 +7,18 @@
     <meta name="author" content="">
     <title>Home | Flat Theme</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/common.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <link href="css/utilities.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
-    <![endif]-->       
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="engine/style.css"/>
+    <script type="text/javascript" src="engine/jquery.js"></script>
     <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
@@ -23,87 +26,200 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
   </head>
   <body>
-    <!---------- Common - nav ------>
-  <header>
-    <div class="container-fluid fixed nav">
-			<div role="navigation" class="navbar navbar-default">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="sr-only" >Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					</button>
-					<a href="index.html#header" class="logos"><i class="fa fa-star-half-o"></i>PRIMES</a>
-				</div>
-				<div class="collapse navbar-collapse" >
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="index.html#header">Home</a></li>
-						<li><a href="index.html#features">Features</a></li>
-						<li><a href="index.html#portafolio">Portfolio</a></li>
-						<li><a href="index.html#pricing">Pricing</a></li>
-						<li><a href="index.html#contactus">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-    </div>
-	</header>      
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <!-- Common - footer ------>
-    <footer>
-      <div class="container footer-one">
-        <div class="row">
-          <div class="col-md-3">
-            <h3>
-              About Us
-            </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
-            elit. Placeat excepturi quas debitis libero. 
-            Odit, deserunt cupiditate vero sunt obcaecati sed 
-            iste ipsum ab velit.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
+    <header>
+      <div class="container-fluid fixed">
+        <div role="navigation" class="navbar navbar-default">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only" >Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <i class="fa fa-heart animated infinite bounce"></i><a href="index.html" class="logos">Flat Theme</a>
           </div>
-          <div class="col-md-3">
-            <h3>Company</h3>
-            <ul>
-              <li>Company Overview</li>
-              <li>Meet The Team</li>
-              <li>Our Awesome Partner</li>
-              <li>Our Services</li>
-              <li>Frequently Asked Questions</li>
-              <li>Contact Us</li>
-              <li>Privacy Policy</li>
-              <li>Terms of Use</li>
-              <li>Copyright</li>
+          <div class="collapse navbar-collapse" >
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="services.html">Service</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact-us.html">Contact</a></li>
             </ul>
           </div>
-          <div class="col-md-3">
-            <h3>Latest Blog</h3>
+          
+        </div>
+      </div>
+    </header>
+    <section>
+      <!-- Start WOWSlider.com BODY section -->
+      <div id="wowslider-container1">
+        <div class="ws_images"><ul>
+          <li><img src="data/images/bg1.jpg" alt="Powerful and Responsive Web Design" title="Powerful and Responsive Web Design" id="wows1_0"/>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. </li>
+          <li><a href="http://wowslider.com"><img src="data/images/bg2.jpg" alt="wowslider.com" title="Powerful and Responsive Web Design" id="wows1_1"/></a>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. </li>
+        <li><img src="data/images/bg3.jpg" alt="Powerful and Responsive Web Design" title="Powerful and Responsive Web Design" id="wows1_2"/>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.</li>
+      </ul></div>
+      <div class="ws_bullets"><div>
+        <a href="#" title="Powerful and Responsive Web Design"><span><img src="data/tooltips/bg1.jpg" alt="Powerful and Responsive Web Design"/>1</span></a>
+        <a href="#" title="Powerful and Responsive Web Design"><span><img src="data/tooltips/bg2.jpg" alt="Powerful and Responsive Web Design"/>2</span></a>
+        <a href="#" title="Powerful and Responsive Web Design"><span><img src="data/tooltips/bg3.jpg" alt="Powerful and Responsive Web Design"/>3</span></a>
+        </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+        <div class="ws_shadow"></div>
+      </div>
+      <!-- End WOWSlider.com BODY section -->
+    </section>
+    <section id="social_networks" class="pv-56">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12 ml-21 ml-0">
+            <div class="media flex white-text mb-14">
+              <div class="media-left mr-14">
+                <a href="#">
+                  <div class="network twitter-network">
+                    <i class="media-object fa fa-twitter fa-3x white-text"></i>
+                  </div>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Twitter Marketing</h3>
+                <p class="media-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ipsam quas expedita, ipsa exercitationem. Placeat excepturi asperiores, quos voluptates odit facilis, minima quo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="media flex white-text mb-14">
+              <div class="media-left mr-14">
+                <a href="#">
+                  <div class="network facebook-network">
+                    <span class="media-object fa fa-facebook fa-3x white-text"></span>
+                  </div>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Facebook Marketing</h3>
+                <p class="media-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ipsam quas expedita, ipsa exercitationem. Placeat excepturi asperiores, quos voluptates odit facilis, minima quo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="media flex white-text mb-14">
+              <div class="media-left mr-14">
+                <a href="#">
+                  <div class="network google-network">
+                    <span class="media-object ion-social-googleplus white-text"></span>
+                  </div>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Google Plus Marketing</h3>
+                <p class="media-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ipsam quas expedita, ipsa exercitationem. Placeat excepturi asperiores, quos voluptates odit facilis, minima quo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="latest_projects pv-56">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-12 col-xs-12">
+            <h3>Our Latest Project</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ut fugit eveniet aliquam alias soluta vero nesciunt dolorem corporis.</p>
+            <nav>
+              <ul class="pagination">
+                <li>
+                  <a class="pagination-icons" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="pagination-icons" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12 project mv-14 mr-14 pt-7 pb-1">
+              <img class="item" src="images/portfolio/recent/item1.png">
+              <h5 class="fw-700">Nova Corporate Site Template</h5>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12 project mv-14 mr-14 pt-7 pb-1">
+              <img class="item" src="images/portfolio/recent/item3.png">
+              <h5 class="fw-700">Nova Corporate Site Template</h5>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12 project mv-14 mr-14 pt-7 pb-1">
+              <img class="item" src="images/portfolio/recent/item2.png">
+              <h5 class="fw-700">Nova Corporate Site Template</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="clients_says pv-35">
+        <div class="container">
+          <h2 class="text-center white-text">What our clients say</h2>
+          <p class="text-center white-text mb-28">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <blockquote class="white-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <p class="source_title_cite">— Someone famous in <cite title="Source Title">Source Title</cite></p>
+              </blockquote>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <blockquote class="white-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <p class="source_title_cite">— Someone famous in <cite title="Source Title">Source Title</cite></p>
+              </blockquote>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <blockquote class="white-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <p class="source_title_cite">— Someone famous in <cite title="Source Title">Source Title</cite></p>
+              </blockquote>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <blockquote class="white-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <p class="source_title_cite">— Someone famous in <cite title="Source Title">Source Title</cite></p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container-fluid footer-one">
+          <div class="row">
+            <div class="col-md-3">
+              <h3>
+              About Us
+              </h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Placeat excepturi quas debitis libero.
+                Odit, deserunt cupiditate vero sunt obcaecati sed
+              iste ipsum ab velit.</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-md-3">
+              <h3>Company</h3>
+              <ul>
+                <li><i class="fa fa-chevron-right"></i> Company Overview</li>
+                <li><i class="fa fa-chevron-right"></i> Meet The Team</li>
+                <li><i class="fa fa-chevron-right"></i> Our Awesome Partner</li>
+                <li><i class="fa fa-chevron-right"></i> Our Services</li>
+                <li><i class="fa fa-chevron-right"></i> Frequently Asked Questions</li>
+                <li><i class="fa fa-chevron-right"></i> Contact Us</li>
+                <li><i class="fa fa-chevron-right"></i> Privacy Policy</li>
+                <li><i class="fa fa-chevron-right"></i> Terms of Use</li>
+                <li><i class="fa fa-chevron-right"></i> Copyright</li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h3>Latest Blog</h3>
               <div class="media">
                 <div class="media-left">
                   <a href="">
@@ -137,36 +253,43 @@
                   <span>Posted 17 aug 2013</span>
                 </div>
               </div>
-          </div>
-          <div class="col-md-3">
-            <h3>Address</h3>
+            </div>
+            <div class="col-md-3 address">
+              <h3>Address</h3>
               <h4>Twitter, Inc</h4>
               <p>795 Folson Ave, Suite 600 </p>
               <p>San Francisco, CA 94107</p>
               <p>P:(123) 456-7890</p>
-            <h3>Newsletter</h3>
-                <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Search for...">
-                  <span class="input-group-btn">
-                    <button class="btn btn-default" type="button">Go!</button>
-                  </span>
+              <h3>Newsletter</h3>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Enter your email">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button">Go!</button>
+                </span>
                 </div><!-- /input-group -->
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="container footer-two">
-        <p>2013 ShapeBootstrap. All Rights Reserved.</p>
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Contact Us</a>
-        <a href="#"><span class="glyphicon-menu-up"></span></a>
-      </div>
-    </footer>
-    
-    
-
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
-</html>
+          <div class="container-fluid footer-two">
+            <div class="col-md-6">
+              <p><i class="fa fa-copyright"></i>2013 ShapeBootstrap. All Rights Reserved.</p>
+            </div>
+            <div class="col-md-6 ">
+              <div class="navdown">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#"><i class="fa fa-chevron-up"></i></a>
+              </div>
+            </div>
+          </div>
+        </footer>
+        
+        
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="engine/wowslider.js"></script>
+        <script type="text/javascript" src="engine/script.js"></script>
+        <script src="js/main.js"></script>
+      </body>
+    </html>

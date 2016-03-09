@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.group-img{
+	background: url('../images/blog/blog2.jpg');
+	background-size: cover;
+	height: 300px;
+    background-position: center;
+}
+
+.form-control{
+	height: 40px;
+}
+
+.mg-tags{
+	margin: 7px 7px 7px 0px;
+}
+
+.height-img{
+	height: 90px;
+}
+
+@media (max-width: 768px){
+.col-xs-offset-8 {
+    margin-left: 66.66666666666666%;
+    float: left
+}
+
+.col-xs-offset-2{
+	margin-left: 16.666666666666664%;
+    float: left
+}
+}

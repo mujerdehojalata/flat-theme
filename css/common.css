@@ -6,7 +6,8 @@
 
 
 body{
-	font-family: "Roboto";
+	font-family: 'Roboto';
+	background-color: #F5F5F5;
 }
 
 
@@ -118,21 +119,14 @@ button.navbar-toggle{
     text-decoration: none;
 }
 
-.breadcrumb>.active {
+.breadcrumb a{
     color: white;
 }
 
 
-
-
-
-
-
-
-
-
-
-
+.breadcrumb .active {
+    color: #AFEBC8;
+}
 
 /*--------FOOTER--------*/
 
@@ -193,3 +187,21 @@ button.navbar-toggle{
 .navdown {
 	float:right;
 }
+
+/*About US*/
+
+.about-us{
+	background-color: #2ECC71;
+}
+
+.about-us p a.active{
+	color: #AFEBC8;
+}
+
+/*general*/
+
+section, footer {
+    position: relative;
+    top: 70px;
+}
+
