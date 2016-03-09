@@ -13,3 +13,130 @@
 .clearfix:after {
   clear: both;
 }
+
+section, footer {
+    position: relative;
+    top: 70px;
+}
+
+#social_networks{
+	background-color: #2ECC71;
+}
+
+.white-text{
+	color:white;
+}
+
+.flex{
+	display: inline-flex;
+}
+
+.mr-14{
+	margin-right: 14px;
+}
+
+.network{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	background-color: #1C7A44;
+}
+
+.twitter-network{
+	padding: 11px;
+}
+
+.facebook-network{
+	padding: 11px 17px;
+}
+
+.google-network{
+    font-size: 34px;
+    padding: 10px 16px;
+}
+
+.pv-35{
+	padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+.pv-56{
+	padding-bottom: 56px;
+    padding-top: 56px;
+}
+
+.latest_projects{
+	background-color: #F5F5F5;
+}
+
+.pagination-icons{
+	background-color: #D9534F!important;
+    border: 1px solid red !important;
+    color: white;
+}
+
+.project{
+	background-color: white;
+	box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.mv-14{
+	margin-top: 14px;
+	margin-bottom: 14px
+}
+
+.mr-14{
+	margin-right: 14px
+}
+
+.pt-7{
+	padding-top: 7px
+}
+
+.pb-1{
+	padding-bottom: 1px;
+}
+
+.mb-28{
+	margin-bottom: 28px;
+}
+
+.title-project{
+	font-weight: 700;
+}
+
+.item{
+	width: 100%;
+}
+
+.clients_says{
+	background-color: #E74C3C;
+}
+
+.source_title_cite{
+	font-size: 1.5rem;
+}
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1200px !important;
+}
+}
+
+@media (min-width: 768px){
+.col-sm-4 {
+    width: 31%;
+}
+}
+
+@media (min-width: 992px){
+.col-md-3 {
+    width: 25%;
+}
+}
+
+@media (max-width: 767px){
+.mb-14 {
+    margin-bottom: 14px;
+}
+}
