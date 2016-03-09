@@ -6,7 +6,7 @@
 
 
 body{
-	font-family: "Roboto";
+	font-family: 'Roboto';
 }
 
 
@@ -193,3 +193,21 @@ button.navbar-toggle{
 .navdown {
 	float:right;
 }
+
+/*About US*/
+
+.about-us{
+	background-color: #2ECC71;
+}
+
+.about-us p a.active{
+	color: #AFEBC8;
+}
+
+/*general*/
+
+section, footer {
+    position: relative;
+    top: 70px;
+}
+

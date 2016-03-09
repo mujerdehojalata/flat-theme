@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.about-us{
+	background-color: #2ECC71;
+}
+
+.about-us p a.active{
+	color: #AFEBC8;
+}
+
+.link-about{
+	color: white;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.fs-medium{
+	font-size: 1.7rem;
+}
+
+.mt-35{
+	margin-top: 35px
+}
+
+.mt-8{
+	  margin-top: 8px;
+}
+
+.progress {
+    height: 30px;
+}
+
+.senior-img{
+	background-color: white;
+	padding: 7px;
+	box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+}
+
+.senior-img img{
+	border-radius: 50%
+}
+
+section, footer {
+    position: relative;
+    top: 70px;
+}
+
+@media (max-width: 768px){
+.col-xs-offset-8 {
+    margin-left: 66.66666666666666%;
+    float: left
+}
+}

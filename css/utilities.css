@@ -1,0 +1,117 @@
+a:hover{
+	text-decoration: none;
+}
+
+.fs-medium{
+	font-size: 1.7rem;
+}
+
+.mg-0{
+	margin:0 !important;
+}
+.mt-21{
+	margin-top: 21px
+}
+.mt-35{
+	margin-top: 35px
+}
+
+.mt-56{
+	margin-top: 56px
+}
+
+.mv-14{
+	margin-top: 14px;
+	margin-bottom: 14px
+}
+
+.ml-15{
+	margin-left: 15px;
+}
+
+.mr-7{
+	margin-right: 7px;
+}
+
+.mr-14{
+	margin-right: 14px
+}
+
+.mb-28{
+	margin-bottom: 28px;
+}
+
+.gray-section{
+	background-color: #F5F5F5;
+}
+
+.white-section{
+	background-color: white;
+}
+
+.pv-35{
+	padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+.pv-56{
+	padding-bottom: 56px;
+    padding-top: 56px;
+}
+
+.pt-7{
+	padding-top: 7px
+}
+
+.pt-0{
+	padding-top: 0px !important;
+}
+
+.pb-1{
+	padding-bottom: 1px;
+}
+
+.ph-5{
+	padding-right: 5%;
+	padding-left: 5%
+}
+
+.pd-21{
+	padding: 21px;
+}
+
+.pd-7{
+	padding: 7px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.black-text{
+	color: black;
+}
+
+.white-text{
+	color:white;
+}
+
+.line-height{
+	line-height: 3rem;
+}
+
+.flex{
+	display: inline-flex;
+}
+
+.br-7{
+	border-radius: 7px;
+}
+
+.item{
+	width: 100%;
+}
+
+.fw-700{
+	font-weight: 700;
+}
