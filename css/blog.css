@@ -1,0 +1,25 @@
+.group-img-1{
+	background: url('../images/blog/blog1.jpg');
+	background-size: cover;
+	height: 300px;
+    background-position: center;
+}
+
+.group-img-2{
+	background: url('../images/blog/blog2.jpg');
+	background-size: cover;
+	height: 300px;
+    background-position: center;
+}
+
+.form-control{
+	height: 40px;
+}
+
+.mg-tags{
+	margin: 7px 7px 7px 0px;
+}
+
+.height-img{
+	height: 90px;
+}

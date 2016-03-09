@@ -4,10 +4,13 @@
 .portfolio{
     padding: 4% 5% 8% 5%;
     color:#324455;
+    background-color: #F5F5F5;
 }
 
 .portfolio img{
     margin-top: 2%;
+    transition: .1s transform;
+    transform: translateZ(0);
 }
 
 .portfolio p{
@@ -17,5 +20,11 @@
 
 
 
+.portfolio > div:hover {
+  z-index: 1;
+}
 
-
+.portfolio > div:hover > img {
+  transform: scale(1.7,1.7);
+  transition: .3s transform;
+}

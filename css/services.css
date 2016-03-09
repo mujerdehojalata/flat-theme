@@ -1,0 +1,31 @@
+
+.services {
+    color: #34495E;
+    background-color: #F5F5F5;
+}
+
+.whatwedo{
+    padding: 4% 5% 8% 5%;
+    color: #34495E;
+}
+
+.whatwedo i{
+    font-size:38px;
+    color:white;
+}
+
+.circle-icon {
+    background-color: #939393;
+    border-radius: 100%;
+    border: 1px solid #939393;
+    padding: 16px;
+}
+
+.whatwedo h3{
+    margin-left: 10px;
+}
+
+.whatwedo p{
+    margin-left: 12px;
+}
+

@@ -1,0 +1,45 @@
+.about-us{
+    background-color: #F5F5F5;
+    padding: 4% 5% 8% 5%;
+    color:#324455;
+}
+
+.staff{
+    background-image: url(../images/team-member.jpg);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: 165px 165px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.about-us i{
+    font-size:12px;
+    color:white;
+}
+
+.social div{
+    border-radius: 100%;
+    padding: 5px 11px 6px 11px;
+    display: inline-block;
+}
+
+.facebook{
+    background-color: #4F7DD4;
+}
+
+.google{
+    background-color: #DC422B;
+    padding: 5px 7px 6px 11px!important;
+}
+
+.twitter{
+    background-color: #5BCEFF;
+}
+
+.linkedin{
+    background-color: #21A6D8;
+}
+
+
