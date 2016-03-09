@@ -18,3 +18,15 @@
 .height-img{
 	height: 90px;
 }
+
+@media (max-width: 768px){
+.col-xs-offset-8 {
+    margin-left: 66.66666666666666%;
+    float: left
+}
+
+.col-xs-offset-2{
+	margin-left: 16.666666666666664%;
+    float: left
+}
+}
