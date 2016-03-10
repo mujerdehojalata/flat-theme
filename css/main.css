@@ -61,6 +61,24 @@
 	font-size: 1.5rem;
 }
 
+.hero-image{
+	background:url('../images/slider/bg1.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 0%;
+    min-height: 300px;
+}
+
+.allh {
+    height: 100%;
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+}
+
 @media (min-width: 1200px){
 .container {
     max-width: 1200px !important;
